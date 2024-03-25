@@ -3,7 +3,8 @@
     "extends": [
       "config:recommended",
       ":semanticCommitTypeAll(fix)",
-      ":automergeMinor"
+      ":automergeMinor",
+      ":disableRateLimiting"
     ],
     "schedule": [
       "before 4am on Sunday"
