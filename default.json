@@ -8,6 +8,14 @@
     "schedule": [
       "before 4am on Sunday"
     ],
-    "timezone": "America/Vancouver"
+    "timezone": "America/Vancouver",
+    "packageRules": [
+      {
+        "groupName": "kotlin",
+        "matchPackagePrefixes": [
+          "org.jetbrains.kotlin"
+        ]
+      }
+    ]
   }
   
